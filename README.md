@@ -58,7 +58,9 @@ The project expects a CSV file named:
 
 network_traffic.csv
 
-The dataset contains network-flow information along with a "Label" column used for evaluating the anomaly detection results.
+This project uses the CIV-IDS2017 dataset for network traffic anomaly detection.
+
+The complete dataset is not included in this repository because of its large file size.
 
 The project removes identifying or unsuitable fields such as:
 
@@ -80,6 +82,12 @@ The model uses selected network traffic features including:
 - Backward Packet Length Mean
 
 ---
+
+🌐 Dataset Source
+
+https://www.unb.ca/cic/datasets/ids-2017.html
+
+After downloading the dataset, prepare the required network traffic CSV and place it in: data/network_traffic.csv
 
 🛠️ Technologies Used
 
