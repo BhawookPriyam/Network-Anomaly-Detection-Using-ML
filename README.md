@@ -89,6 +89,8 @@ https://www.unb.ca/cic/datasets/ids-2017.html
 
 After downloading the dataset, prepare the required network traffic CSV and place it in: data/network_traffic.csv
 
+---
+
 🛠️ Technologies Used
 
 - Python
